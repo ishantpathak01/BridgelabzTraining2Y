@@ -1,0 +1,14 @@
+START
+INPUT N
+IF N <= 1 THEN
+    PRINT "Not Prime"
+    STOP
+END IF
+FOR i = 2 TO √N
+    IF N MOD i == 0 THEN
+        PRINT "Not Prime"
+        STOP
+    END IF
+END FOR
+PRINT "Prime"
+STOP
