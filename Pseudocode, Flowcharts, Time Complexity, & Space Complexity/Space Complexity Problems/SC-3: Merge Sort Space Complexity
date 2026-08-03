@@ -1,0 +1,14 @@
+Sample Array: {8, 61, 2, 3, 4, 0}
+
+1. Why is extra memory required?
+
+Merge Sort creates a temporary array while merging two sorted subarrays. Therefore, it needs extra memory.
+
+Auxiliary Space Complexity: O(N)
+
+2. Comparison with In-place Sorting
+Algorithm	Space Complexity
+Merge | Sort | O(N)
+Insertion | Sort |	O(1)
+Selection | Sort |	O(1)
+Iterative | Quick Sort |	O(log N) (average stack usage)
