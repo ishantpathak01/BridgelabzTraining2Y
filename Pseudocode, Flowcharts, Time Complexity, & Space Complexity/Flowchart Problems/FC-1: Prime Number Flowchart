@@ -1,0 +1,27 @@
+        ┌────────┐
+        │ START  │
+        └───┬────┘
+            │
+        Input N
+            │
+      i = 2
+            │
+      i ≤ N ?
+      ┌───┴────┐
+     Yes      No
+      │         │
+ N % i == 0 ?   │
+ ┌───┴────┐     │
+Yes       No    │
+ │         │    │
+Print      i=i+1│
+Not Prime  │    │
+ │         └────┘
+ │
+ STOP
+
+No factors found
+      │
+Print Prime
+      │
+    STOP
