@@ -1,0 +1,41 @@
+# TC-3: Merge Sort Time Complexity
+
+**Sample Array:** `{8, 61, 2, 3, 4, 0}`
+
+### 1. Split Tree
+
+```text
+          [8,61,2,3,4,0]
+          /            \
+      [8,61,2]      [3,4,0]
+      /    \         /    \
+    [8]  [61,2]    [3]   [4,0]
+         /   \            /  \
+      [61] [2]         [4]  [0]
+```
+
+### 2. Recurrence Relation
+
+```text
+T(N) = 2T(N/2) + N
+```
+
+### 3. Recursion Tree
+
+* Level 0 → **N**
+* Level 1 → **N**
+* Level 2 → **N**
+* ...
+* Number of levels = **log₂N**
+
+Total Work:
+
+```text
+N × log₂N
+```
+
+### 4. Time Complexity
+
+* **Best Case:** `O(N log N)`
+* **Average Case:** `O(N log N)`
+* **Worst Case:** `O(N log N)`
