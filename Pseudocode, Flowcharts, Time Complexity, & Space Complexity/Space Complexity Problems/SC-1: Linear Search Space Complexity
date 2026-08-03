@@ -1,0 +1,4 @@
+Sample Array: {8, 61, 2, 3, 4, 0}
+
+ -> Auxiliary Space Complexity: O(1)
+ -> Reason: Iterative Linear Search uses only a few variables (index and target) and does not create any extra array.
