@@ -1,0 +1,4 @@
+Sample Sorted Array: {0, 2, 3, 4, 8, 61}
+
+-> Auxiliary Space Complexity (Iterative): O(1)
+-> Reason: It only uses three variables (low, high, and mid) and does not require additional memory.
