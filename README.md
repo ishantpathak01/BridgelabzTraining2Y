@@ -11,6 +11,7 @@ Just a place where I keep all my DSA practice problems, organized by topic.
 - **String**
 - **Workshop**
 - **practice-problems**
+- **Recursion**
 
 ## How to use
 
@@ -25,5 +26,6 @@ If you want to add a new topic, create a new branch from main.
 3. Sorting  
 4. String  
 5. practice-problems
+6. Recursion 
 
 That’s it. Keep coding :)
